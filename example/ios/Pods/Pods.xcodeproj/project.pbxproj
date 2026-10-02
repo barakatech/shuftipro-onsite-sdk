@@ -1,0 +1,1366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		C0A1AE77AA8C152D3ABA24A966525081 /* ShuftiPro-Onsite */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 69F5120C6267F9C8EC427B785BECBC4E /* Build configuration list for PBXAggregateTarget "ShuftiPro-Onsite" */;
+			buildPhases = (
+				0E98523436536FB303590852E7821BDD /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "ShuftiPro-Onsite";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13A731AEA3ADFA704429C695C32C13BC /* ShuftiproSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA42EC836FD1C9EC5D2B3C11C4825F /* ShuftiproSdk.m */; };
+		1D082CCB66E8DD19E6BEA9E48E7E2A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1D759CB4E6A9EDDD6DE25D91DBE4DAC7 /* shuftipro_onsite_sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1F836CBF7804170269E23E532A499C /* shuftipro_onsite_sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2947460CF00328CF064D5B1A37D9DC9F /* ShuftiproSdkPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9EF481C9F24767D3FC65B1620AC663 /* ShuftiproSdkPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363E775D1D65A8E626B6166DD1BD3D7E /* ShuftiproSdkPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 478E204B76C05043754E3CCD2C7114CD /* ShuftiproSdkPlugin.m */; };
+		40FEDB8353DC949AEC30CE01966E2888 /* SwiftShuftiproSdkPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9655BEFE841496C07E8C3E93712913F8 /* SwiftShuftiproSdkPlugin.swift */; };
+		79B9D9884F67915550BA166D4D613476 /* shuftipro_onsite_sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68002185FADA795FB46D458C19FEBA1 /* shuftipro_onsite_sdk-dummy.m */; };
+		A9B28E3A68A02A8A80C8B819163249D4 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
+		C1D549322F01FF587D2EF18CED19886C /* SwiftShuftiproSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70AD046CD74B82E8EC0105EE8CF2069 /* SwiftShuftiproSdk.swift */; };
+		D6040C6B9B87F0B03B630B0FE73F7DA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		E13166E8AF590B83525EF6E28D40E542 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDD426391A3987E49BBC237C33E5DAD /* ShuftiproSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 23636220BF5FE427BDD615BC415056AD /* ShuftiproSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		164EF79F5C807E84FFD8716B8684564A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB494A4C1938E3987A3BD8F61086462;
+			remoteInfo = shuftipro_onsite_sdk;
+		};
+		415BE05FE019112F8D337E0B21A3A3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		5C5A2029D35FD117EF09B26ED73121DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		7C4F0343B35345289886C618D51553B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A1AE77AA8C152D3ABA24A966525081;
+			remoteInfo = "ShuftiPro-Onsite";
+		};
+		F3FA789F1E08FE542522C39462F4F4D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A1AE77AA8C152D3ABA24A966525081;
+			remoteInfo = "ShuftiPro-Onsite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8C71B34DAD2A2C3C5E6CD3429D8AA5 /* shuftipro_onsite_sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shuftipro_onsite_sdk.release.xcconfig; sourceTree = "<group>"; };
+		1CB18FC76464E715A82E62F34C70203E /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		216F017CC18008973CC5BDD3386AA768 /* shuftipro_onsite_sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shuftipro_onsite_sdk-Info.plist"; sourceTree = "<group>"; };
+		23636220BF5FE427BDD615BC415056AD /* ShuftiproSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShuftiproSdk.h; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/Classes/ShuftiproSdk.h"; sourceTree = "<group>"; };
+		2D9EF481C9F24767D3FC65B1620AC663 /* ShuftiproSdkPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShuftiproSdkPlugin.h; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/Classes/ShuftiproSdkPlugin.h"; sourceTree = "<group>"; };
+		2E3DCEA19F1577AB9D91BD20C2369474 /* ShuftiPro.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ShuftiPro.xcframework; sourceTree = "<group>"; };
+		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		478E204B76C05043754E3CCD2C7114CD /* ShuftiproSdkPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShuftiproSdkPlugin.m; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/Classes/ShuftiproSdkPlugin.m"; sourceTree = "<group>"; };
+		4FEA42EC836FD1C9EC5D2B3C11C4825F /* ShuftiproSdk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShuftiproSdk.m; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/Classes/ShuftiproSdk.m"; sourceTree = "<group>"; };
+		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		57DB6292D996A3552B72CBFE3473C428 /* shuftipro_onsite_sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shuftipro_onsite_sdk.podspec; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/shuftipro_onsite_sdk.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC71DF0D4A7D0AEFE532C51F5F58E34 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		7F3A1FCF9102E80616085A13508D58C5 /* ShuftiPro-Onsite-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ShuftiPro-Onsite-xcframeworks.sh"; sourceTree = "<group>"; };
+		8A0BAC59C12020ED5708978979ACEE90 /* ShuftiPro-Onsite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShuftiPro-Onsite.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1F836CBF7804170269E23E532A499C /* shuftipro_onsite_sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shuftipro_onsite_sdk-umbrella.h"; sourceTree = "<group>"; };
+		8EC1A9000446D8BC0D3B762BFC5CD693 /* shuftipro_onsite_sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shuftipro_onsite_sdk-prefix.pch"; sourceTree = "<group>"; };
+		9655BEFE841496C07E8C3E93712913F8 /* SwiftShuftiproSdkPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftShuftiproSdkPlugin.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/Classes/SwiftShuftiproSdkPlugin.swift"; sourceTree = "<group>"; };
+		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		AEEFCBE878D31DCFEB6CFBC373E492CB /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B45D2C5AEEB64120CED6DF142357714B /* shuftipro_onsite_sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shuftipro_onsite_sdk.debug.xcconfig; sourceTree = "<group>"; };
+		BF0DEDB08FC9C2A51C8D10E0276A7B53 /* shuftipro_onsite_sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shuftipro_onsite_sdk.modulemap; sourceTree = "<group>"; };
+		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		D70AD046CD74B82E8EC0105EE8CF2069 /* SwiftShuftiproSdk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftShuftiproSdk.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios/Classes/SwiftShuftiproSdk.swift"; sourceTree = "<group>"; };
+		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		E08C5FBA300EFDEC511DE086A0A759B5 /* shuftipro_onsite_sdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shuftipro_onsite_sdk; path = shuftipro_onsite_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFDD22474DA284887BB272D00D6B458 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/LICENSE"; sourceTree = "<group>"; };
+		EF7D2CDA27E7C35ECD908CDD00211CFC /* ShuftiPro-Onsite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShuftiPro-Onsite.release.xcconfig"; sourceTree = "<group>"; };
+		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		F68002185FADA795FB46D458C19FEBA1 /* shuftipro_onsite_sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shuftipro_onsite_sdk-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AE33CAEF8DE1FA45CDD37FD957920A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6040C6B9B87F0B03B630B0FE73F7DA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F615B110B4884FB9DA092D9B96C926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D082CCB66E8DD19E6BEA9E48E7E2A3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABD19A3CA99438F9C7177CD28DF4D9B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDFDD22474DA284887BB272D00D6B458 /* LICENSE */,
+				57DB6292D996A3552B72CBFE3473C428 /* shuftipro_onsite_sdk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F91FC9CCE81F3F6BE49A7F53301A254 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E1A3126B847CC41C8C5C76E33656C /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1B1B2274D6656C5B79670EFE0C47F37C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A456E6DCB597DD53616526C5E0B946 /* ShuftiPro-Onsite */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C1D6AA31999211A91BDCD5DCD2C34D4 /* shuftipro_onsite_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				74EAD0FB267D6D2118BE8ECC5EA4FB0C /* .. */,
+				0ABD19A3CA99438F9C7177CD28DF4D9B /* Pod */,
+				F1723DC92E8A5DB9AE121313378FD5D3 /* Support Files */,
+			);
+			name = shuftipro_onsite_sdk;
+			path = ../.symlinks/plugins/shuftipro_onsite_sdk/ios;
+			sourceTree = "<group>";
+		};
+		1C9E1A3126B847CC41C8C5C76E33656C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C55D7D2F6CCA2D7E0D388EB866B2A3A3 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1F363D102E6104FB714E0B7EBF66CC47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23636220BF5FE427BDD615BC415056AD /* ShuftiproSdk.h */,
+				4FEA42EC836FD1C9EC5D2B3C11C4825F /* ShuftiproSdk.m */,
+				2D9EF481C9F24767D3FC65B1620AC663 /* ShuftiproSdkPlugin.h */,
+				478E204B76C05043754E3CCD2C7114CD /* ShuftiproSdkPlugin.m */,
+				D70AD046CD74B82E8EC0105EE8CF2069 /* SwiftShuftiproSdk.swift */,
+				9655BEFE841496C07E8C3E93712913F8 /* SwiftShuftiproSdkPlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		203F17910725583F56ADB66271146B26 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				1F363D102E6104FB714E0B7EBF66CC47 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		2159F7602B4984C83199CFA714D8A711 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				DECFEB31BAD84B516626EFDE40AC7CD4 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		25BB29724B23EDF3E40AA6F8355A1437 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				D64BE303CA10324653411177C8563ED8 /* ios */,
+			);
+			name = example;
+			path = example;
+			sourceTree = "<group>";
+		};
+		359883B1D516A1C66A9FAD527CDE53D0 /* Automation  */ = {
+			isa = PBXGroup;
+			children = (
+				E9435BF38244FC59B04359265007081C /* Plugins */,
+			);
+			name = "Automation ";
+			path = "Automation ";
+			sourceTree = "<group>";
+		};
+		3C61316DD55B4F3D16D2B3BEFF217CFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AC71DF0D4A7D0AEFE532C51F5F58E34 /* Flutter.debug.xcconfig */,
+				1CB18FC76464E715A82E62F34C70203E /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		513003CD38AEFAF069105FD9DF409FF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52BF419CA003F00AEE6217EEEF0B60F9 /* Flutter */,
+				1C1D6AA31999211A91BDCD5DCD2C34D4 /* shuftipro_onsite_sdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52BF419CA003F00AEE6217EEEF0B60F9 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C29E64B06F8C2C5A76F021BAEE11B /* Pod */,
+				3C61316DD55B4F3D16D2B3BEFF217CFE /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		5819CC44428843E9D9BE790879E53B1B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				359883B1D516A1C66A9FAD527CDE53D0 /* Automation  */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		74EAD0FB267D6D2118BE8ECC5EA4FB0C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				0F91FC9CCE81F3F6BE49A7F53301A254 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/shuftipro_onsite_sdk-1.0.24/ios";
+			sourceTree = "<group>";
+		};
+		77BB8AF6A733349EBEADB997AE69FA71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A1FCF9102E80616085A13508D58C5 /* ShuftiPro-Onsite-xcframeworks.sh */,
+				8A0BAC59C12020ED5708978979ACEE90 /* ShuftiPro-Onsite.debug.xcconfig */,
+				EF7D2CDA27E7C35ECD908CDD00211CFC /* ShuftiPro-Onsite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShuftiPro-Onsite";
+			sourceTree = "<group>";
+		};
+		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */,
+				C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */,
+				D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */,
+				7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */,
+				317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */,
+				51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */,
+				96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */,
+				CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */,
+				9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */,
+				D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		7D0D0E19AA027132C3C6F22C3ECC9A72 /* shuftipro_onsite_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				25BB29724B23EDF3E40AA6F8355A1437 /* example */,
+			);
+			name = shuftipro_onsite_sdk;
+			path = shuftipro_onsite_sdk;
+			sourceTree = "<group>";
+		};
+		82E8BD942D4DFB68D0F33A48DEF20C9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DCEA19F1577AB9D91BD20C2369474 /* ShuftiPro.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54D388563A3D219251AAEEF9F8DB306 /* shuftipro_onsite_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				203F17910725583F56ADB66271146B26 /* ios */,
+			);
+			name = shuftipro_onsite_sdk;
+			path = shuftipro_onsite_sdk;
+			sourceTree = "<group>";
+		};
+		AB7C29E64B06F8C2C5A76F021BAEE11B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFCBE878D31DCFEB6CFBC373E492CB /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C55D7D2F6CCA2D7E0D388EB866B2A3A3 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F9FEE85BA6245D1FC972269F43175169 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CD2E4C7AF61801AD44E57A95979285CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+				E08C5FBA300EFDEC511DE086A0A759B5 /* shuftipro_onsite_sdk */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				513003CD38AEFAF069105FD9DF409FF3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1B1B2274D6656C5B79670EFE0C47F37C /* Pods */,
+				CD2E4C7AF61801AD44E57A95979285CF /* Products */,
+				791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D64BE303CA10324653411177C8563ED8 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				2159F7602B4984C83199CFA714D8A711 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		DECFEB31BAD84B516626EFDE40AC7CD4 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				A54D388563A3D219251AAEEF9F8DB306 /* shuftipro_onsite_sdk */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5A456E6DCB597DD53616526C5E0B946 /* ShuftiPro-Onsite */ = {
+			isa = PBXGroup;
+			children = (
+				82E8BD942D4DFB68D0F33A48DEF20C9B /* Frameworks */,
+				77BB8AF6A733349EBEADB997AE69FA71 /* Support Files */,
+			);
+			name = "ShuftiPro-Onsite";
+			path = "ShuftiPro-Onsite";
+			sourceTree = "<group>";
+		};
+		E9435BF38244FC59B04359265007081C /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				FD2FE8FF1BA88A863E917BF61CCAFD77 /* flutter-live-plugins */,
+			);
+			name = Plugins;
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		F1723DC92E8A5DB9AE121313378FD5D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0DEDB08FC9C2A51C8D10E0276A7B53 /* shuftipro_onsite_sdk.modulemap */,
+				F68002185FADA795FB46D458C19FEBA1 /* shuftipro_onsite_sdk-dummy.m */,
+				216F017CC18008973CC5BDD3386AA768 /* shuftipro_onsite_sdk-Info.plist */,
+				8EC1A9000446D8BC0D3B762BFC5CD693 /* shuftipro_onsite_sdk-prefix.pch */,
+				8B1F836CBF7804170269E23E532A499C /* shuftipro_onsite_sdk-umbrella.h */,
+				B45D2C5AEEB64120CED6DF142357714B /* shuftipro_onsite_sdk.debug.xcconfig */,
+				0D8C71B34DAD2A2C3C5E6CD3429D8AA5 /* shuftipro_onsite_sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/shuftipro_onsite_sdk";
+			sourceTree = "<group>";
+		};
+		F9FEE85BA6245D1FC972269F43175169 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				5819CC44428843E9D9BE790879E53B1B /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FD2FE8FF1BA88A863E917BF61CCAFD77 /* flutter-live-plugins */ = {
+			isa = PBXGroup;
+			children = (
+				7D0D0E19AA027132C3C6F22C3ECC9A72 /* shuftipro_onsite_sdk */,
+			);
+			name = "flutter-live-plugins";
+			path = "flutter-live-plugins";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		106CFD5CE8CD60F957138B94F1834B7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13166E8AF590B83525EF6E28D40E542 /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B57F64F2E3F6356381C5324640E74A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D759CB4E6A9EDDD6DE25D91DBE4DAC7 /* shuftipro_onsite_sdk-umbrella.h in Headers */,
+				FFDD426391A3987E49BBC237C33E5DAD /* ShuftiproSdk.h in Headers */,
+				2947460CF00328CF064D5B1A37D9DC9F /* ShuftiproSdkPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EB494A4C1938E3987A3BD8F61086462 /* shuftipro_onsite_sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7614C650181AACA04C97AD7BA32777B /* Build configuration list for PBXNativeTarget "shuftipro_onsite_sdk" */;
+			buildPhases = (
+				4B57F64F2E3F6356381C5324640E74A6 /* Headers */,
+				D67C3217049F600B6C33B0C76FFA8C0D /* Sources */,
+				53AE33CAEF8DE1FA45CDD37FD957920A /* Frameworks */,
+				A02CE148C2D6DF00796E4E3308C97801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F49D6A344EB77376D8C321708DD6E /* PBXTargetDependency */,
+				886415550ADAC38144850007A71375B0 /* PBXTargetDependency */,
+			);
+			name = shuftipro_onsite_sdk;
+			productName = shuftipro_onsite_sdk;
+			productReference = E08C5FBA300EFDEC511DE086A0A759B5 /* shuftipro_onsite_sdk */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8E10B7C32AC028D18D2AB565432F04 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				106CFD5CE8CD60F957138B94F1834B7A /* Headers */,
+				809365B19358FB955331EA65BCC0EC1E /* Sources */,
+				97F615B110B4884FB9DA092D9B96C926 /* Frameworks */,
+				554353CF607E6BC3D3B76706B8BC9513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4E8B026E6C942BF072ECABF0C29C01 /* PBXTargetDependency */,
+				6B9BE727BBB81A7D17A06837F02ED7EC /* PBXTargetDependency */,
+				A6F01DA3AD372A7A40C3163DECA2EC95 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = Pods_Runner;
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD2E4C7AF61801AD44E57A95979285CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				C0A1AE77AA8C152D3ABA24A966525081 /* ShuftiPro-Onsite */,
+				4EB494A4C1938E3987A3BD8F61086462 /* shuftipro_onsite_sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554353CF607E6BC3D3B76706B8BC9513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02CE148C2D6DF00796E4E3308C97801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E98523436536FB303590852E7821BDD /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ShuftiPro-Onsite/ShuftiPro-Onsite-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ShuftiPro-Onsite/ShuftiPro-Onsite-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ShuftiPro-Onsite/ShuftiPro-Onsite-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809365B19358FB955331EA65BCC0EC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B28E3A68A02A8A80C8B819163249D4 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67C3217049F600B6C33B0C76FFA8C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B9D9884F67915550BA166D4D613476 /* shuftipro_onsite_sdk-dummy.m in Sources */,
+				13A731AEA3ADFA704429C695C32C13BC /* ShuftiproSdk.m in Sources */,
+				363E775D1D65A8E626B6166DD1BD3D7E /* ShuftiproSdkPlugin.m in Sources */,
+				C1D549322F01FF587D2EF18CED19886C /* SwiftShuftiproSdk.swift in Sources */,
+				40FEDB8353DC949AEC30CE01966E2888 /* SwiftShuftiproSdkPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219F49D6A344EB77376D8C321708DD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 5C5A2029D35FD117EF09B26ED73121DE /* PBXContainerItemProxy */;
+		};
+		6B9BE727BBB81A7D17A06837F02ED7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ShuftiPro-Onsite";
+			target = C0A1AE77AA8C152D3ABA24A966525081 /* ShuftiPro-Onsite */;
+			targetProxy = 7C4F0343B35345289886C618D51553B5 /* PBXContainerItemProxy */;
+		};
+		886415550ADAC38144850007A71375B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ShuftiPro-Onsite";
+			target = C0A1AE77AA8C152D3ABA24A966525081 /* ShuftiPro-Onsite */;
+			targetProxy = F3FA789F1E08FE542522C39462F4F4D0 /* PBXContainerItemProxy */;
+		};
+		A6F01DA3AD372A7A40C3163DECA2EC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = shuftipro_onsite_sdk;
+			target = 4EB494A4C1938E3987A3BD8F61086462 /* shuftipro_onsite_sdk */;
+			targetProxy = 164EF79F5C807E84FFD8716B8684564A /* PBXContainerItemProxy */;
+		};
+		EE4E8B026E6C942BF072ECABF0C29C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 415BE05FE019112F8D337E0B21A3A3D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33EB34CF8530A0B0FD79A1BAD23466BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7D2CDA27E7C35ECD908CDD00211CFC /* ShuftiPro-Onsite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E269E27A3E07FFBEE969F1E2CB25BCA /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		503C1EFFF98ABB8F379FAECB16E0AEE5 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		569E658781673C5E4274D99121822985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66AB2934750D40AD8076557987F1C242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC71DF0D4A7D0AEFE532C51F5F58E34 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		692DDAC14492909E10075D2FA11F24E7 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7D2CDA27E7C35ECD908CDD00211CFC /* ShuftiPro-Onsite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94C77053E375CC018CE7C97213439DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45D2C5AEEB64120CED6DF142357714B /* shuftipro_onsite_sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = shuftipro_onsite_sdk;
+				PRODUCT_NAME = shuftipro_onsite_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A02C8EB8A19EE3FEB5EFEF38C41B58B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0BAC59C12020ED5708978979ACEE90 /* ShuftiPro-Onsite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8E111CFEC5BD9D856E6BC01D159C109 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8C71B34DAD2A2C3C5E6CD3429D8AA5 /* shuftipro_onsite_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = shuftipro_onsite_sdk;
+				PRODUCT_NAME = shuftipro_onsite_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		B90F9ECA1CF6F4B009B3F630F29E5FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB18FC76464E715A82E62F34C70203E /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E0EF50A456C76AA35E96BC63F786A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECADC3DA3CA35C50136F729EA9ECE827 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB18FC76464E715A82E62F34C70203E /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		FE3646586CE6573AC3CB2F8148AC212C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8C71B34DAD2A2C3C5E6CD3429D8AA5 /* shuftipro_onsite_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/saadafzaal/Documents/3.24.3_flutter_sdk/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/shuftipro_onsite_sdk/shuftipro_onsite_sdk.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = shuftipro_onsite_sdk;
+				PRODUCT_NAME = shuftipro_onsite_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				503C1EFFF98ABB8F379FAECB16E0AEE5 /* Profile */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F5120C6267F9C8EC427B785BECBC4E /* Build configuration list for PBXAggregateTarget "ShuftiPro-Onsite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02C8EB8A19EE3FEB5EFEF38C41B58B6 /* Debug */,
+				692DDAC14492909E10075D2FA11F24E7 /* Profile */,
+				33EB34CF8530A0B0FD79A1BAD23466BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8E10B7C32AC028D18D2AB565432F04 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E0EF50A456C76AA35E96BC63F786A5 /* Debug */,
+				3E269E27A3E07FFBEE969F1E2CB25BCA /* Profile */,
+				569E658781673C5E4274D99121822985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AB2934750D40AD8076557987F1C242 /* Debug */,
+				ECADC3DA3CA35C50136F729EA9ECE827 /* Profile */,
+				B90F9ECA1CF6F4B009B3F630F29E5FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7614C650181AACA04C97AD7BA32777B /* Build configuration list for PBXNativeTarget "shuftipro_onsite_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C77053E375CC018CE7C97213439DAA /* Debug */,
+				A8E111CFEC5BD9D856E6BC01D159C109 /* Profile */,
+				FE3646586CE6573AC3CB2F8148AC212C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

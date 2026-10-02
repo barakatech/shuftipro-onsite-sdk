@@ -1,0 +1,2 @@
+rootProject.name = 'shuftipro-sdk'
+include ':app', ':shuftipro-sdk'

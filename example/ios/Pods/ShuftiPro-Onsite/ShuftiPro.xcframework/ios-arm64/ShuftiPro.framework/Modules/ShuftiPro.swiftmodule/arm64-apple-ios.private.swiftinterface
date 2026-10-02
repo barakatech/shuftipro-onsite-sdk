@@ -1,0 +1,56 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ShuftiPro
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AVFoundation
+import AVKit
+import CoreImage.CIFilterBuiltins
+import CommonCrypto
+import CoreGraphics
+import CoreImage
+import CoreLocation
+import CoreNFC
+import CoreVideo
+import CryptoKit
+import DeveloperToolsSupport
+import Foundation
+import ImageIO
+import MessageUI
+import MobileCoreServices
+import Network
+import PDFKit
+import Security
+@_exported import ShuftiPro
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import Vision
+import WebKit
+import _Concurrency
+import _CoreNFC_UIKit
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+@objc @_inheritsConvenienceInitializers public class Shufti : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public class func shuftiProSDKDemoRun()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func register(clientID: Swift.String, customerID: Swift.String, configs: [Swift.String : Any]?, completion: @escaping (_ result: Any) -> Swift.Void)
+  #endif
+  @objc public func unRegister()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func shuftiProCustomerVerification(clientID _: Swift.String, customerID _: Swift.String, configs: [Swift.String : Any]?, parentVC pvc: UIKit.UIViewController, completion: @escaping (_ result: Any) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func shuftiProVerification(requestObject dataObjectObj: [Swift.String : Any], authKeys: [Swift.String : Swift.String], parentVC pvc: UIKit.UIViewController, configs: [Swift.String : Any]?, completion: @escaping (_ result: Any) -> Swift.Void)
+  #endif
+  public class func bundle() -> Foundation.Bundle
+  @objc public func getUniqueReference() -> Swift.String
+  public func stagingCheck() -> Swift.Bool
+  public func testingCheck() -> Swift.Bool
+  public func devCheck() -> Swift.Bool
+  public func sqa3Check() -> Swift.Bool
+  public func ft2Check() -> Swift.Bool
+  @objc deinit
+}

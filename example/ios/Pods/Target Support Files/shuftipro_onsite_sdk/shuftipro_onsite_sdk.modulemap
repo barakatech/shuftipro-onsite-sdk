@@ -1,0 +1,6 @@
+framework module shuftipro_onsite_sdk {
+  umbrella header "shuftipro_onsite_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
